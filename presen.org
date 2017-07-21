@@ -105,9 +105,12 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
   + Human-competitive Games (AlphaGo)
 + What's missing in DM's goal for AGI?
 + Domain-independent Deliberative Agent
-  + DQN / RL is strictly reactive, like Pavlov's dog
+  + [[https://en.wikipedia.org/wiki/Reactive_planning][DQN / RL is strictly reactive, like Pavlov's dog]]
     + RL greedily trust the learned Q-function, which may work in Atari games
-    + but RL cannot be used for critical applications, no *theoretical guarantees* for soundness
+      + Atari games are reactive, younger players are good at games
+    + By design, not capable of reasoning about the long future
+      + 1-step (Q-learning) or 2-steps (SARSA) future only
+    + Cannot be used for critical applications, no *theoretical guarantees* for soundness
       + Like space applications, expensive robots, medical applications
   + Domain-independent reasoning
     + AlphaGo is a Go-specific solver, Human solves various problems
