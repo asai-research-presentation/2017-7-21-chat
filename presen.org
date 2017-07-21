@@ -16,23 +16,11 @@ Talk with Patrick Cooper
 #+end_center
 #+end_outline-text-1
 
-* My background
-
-+ Symbolic AI
-  + Automated Planning and Scheduling
-  + Decision making, Knowledge Representation, Graph Search, Optimization
-  + *Sound and explainable AIs*
-    + Applications: Autonomous Satellite Operation, Logistics, Manufacturing
-      + We cannot allow AI to make mistakes in Space
-      + because we cannot afford *destroying the spaceships!*
-      + Been deployed in many mission-critical applications
-+ I have multiple papers in Top-Tier AI confs/journals: AAAI(1), IJCAI(1), ICAPS(3), JAIR(1)
-
-* 
+* I am from ...
 
 #+begin_xlarge
 #+begin_center
-I am from */Planning/* community
+the */Automated Planning/* community
 #+end_center
 #+end_xlarge
 
@@ -47,6 +35,18 @@ International Conference on Automated Planning and Scheduling
 https://en.wikipedia.org/wiki/Automated_planning_and_scheduling
 
 http://portal.core.edu.au/conf-ranks/919/ A* ratings (same as AAAI, NIPS, ICML)
+
+* My background
+
++ Symbolic AI
+  + Automated Planning and Scheduling, a sub-discipline of AI
+  + Decision making, Knowledge Representation, Graph Search, Optimization
+  + *Sound and explainable AIs*
+    + Applications: [[http://users.cecs.anu.edu.au/~patrik/sigaps/index.php][Autonomous Satellite Operation, Logistics, Manufacturing]]
+      + We cannot allow AI to make mistakes in Space
+      + because we cannot afford *destroying the spaceships!*
+      + Been deployed in many mission-critical applications
++ I have multiple papers in Top-Tier AI confs/journals: AAAI(1), IJCAI(1), ICAPS(3), JAIR(1)
 
 * My most recent work
 
