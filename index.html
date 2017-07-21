@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-07-21 金 22:04 -->
+<!-- 2017-07-21 金 22:09 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title></title>
@@ -321,8 +321,15 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 <ul class="org-ul">
 <li>DQN / RL is strictly reactive, like Pavlov's dog
 <ul class="org-ul">
-<li>RL greedily trust the learned Q-function, which may work in Atari games</li>
-<li>but RL cannot be used for critical applications, no <b>theoretical guarantees</b> for soundness
+<li>RL greedily trust the learned Q-function, which may work in Atari games
+<ul class="org-ul">
+<li>Games are reactive</li>
+</ul></li>
+<li>By design, not capable of reasoning about the long future
+<ul class="org-ul">
+<li>1-step (Q-learning) or 2-steps (SARSA) future only</li>
+</ul></li>
+<li>Cannot be used for critical applications, no <b>theoretical guarantees</b> for soundness
 <ul class="org-ul">
 <li>Like space applications, expensive robots, medical applications</li>
 </ul></li>
@@ -428,7 +435,7 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2017-07-21 金 22:04</p>
+<p class="date">Created: 2017-07-21 金 22:09</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
