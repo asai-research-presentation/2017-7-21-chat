@@ -105,18 +105,32 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
   + Human-competitive Games (AlphaGo)
 + What's missing in DM's goal for AGI?
 + Domain-independent Deliberative Agent
-  + DQN / RL is strictly reactive, like Pavlov's dog
-    + RL greedily trust the learned Q-function, which may work in Atari games
-      + Games are reactive
-    + By design, not capable of reasoning about the long future
-      + 1-step (Q-learning) or 2-steps (SARSA) future only
-    + Cannot be used for critical applications, no *theoretical guarantees* for soundness
-      + Like space applications, expensive robots, medical applications
-  + Domain-independent reasoning
-    + AlphaGo is a Go-specific solver, Human solves various problems
-  + Single-agent deliberation, not games
-    + Where *right* and *optimal* answers matter (completeness & optimality)
-    + Compared to achieving the *optimal* solution, it is easier to win against the human!
+  + 1: [[https://en.wikipedia.org/wiki/Reactive_planning][DQN / RL is strictly reactive, like Pavlov's dog]]
+  + 2: Domain-independent reasoning
+  + 3: Single-agent deliberation, not games
+
+* RL is strictly reactive, like Pavlov's dog
+
++ RL greedily trust the learned Q-function, which may work in Atari games
+  + Atari games are reactive, younger players are good at games
++ By design, not capable of reasoning about the long future, may fall in deadend
+  + 1-step (Q-learning) or 2-steps (SARSA) future only
+  + E.g. An autonomous car may drive around too long, failing to foresee running out of fuel
++ Cannot be used for critical applications, no *theoretical guarantees* for soundness
+  + Like space applications, expensive robots, medical applications
+
+* Domain-independnet Reasoning
+
++ AlphaGo is a Go-specific solver, Human solves various problems
++ Planning provides domain-independent solvers: One solver to rule them all
++ SIGAPS (collection of planning applications) http://users.cecs.anu.edu.au/~patrik/sigaps/index.php
+
+* Single-agent deliberation, not games
+
++ Where *right* and *optimal* answers matter (completeness & optimality)
+  + optimality -> smallest cost
++ Compared to achieving the *optimal* solution, it is easier to win against the human!
+
 
 * What I can provide
 

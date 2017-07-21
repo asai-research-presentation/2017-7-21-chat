@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-07-21 金 22:09 -->
+<!-- 2017-07-21 金 22:19 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title></title>
@@ -319,38 +319,63 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 <li>What's missing in DM's goal for AGI?</li>
 <li>Domain-independent Deliberative Agent
 <ul class="org-ul">
-<li>DQN / RL is strictly reactive, like Pavlov's dog
-<ul class="org-ul">
-<li>RL greedily trust the learned Q-function, which may work in Atari games
-<ul class="org-ul">
-<li>Games are reactive</li>
-</ul></li>
-<li>By design, not capable of reasoning about the long future
-<ul class="org-ul">
-<li>1-step (Q-learning) or 2-steps (SARSA) future only</li>
-</ul></li>
-<li>Cannot be used for critical applications, no <b>theoretical guarantees</b> for soundness
-<ul class="org-ul">
-<li>Like space applications, expensive robots, medical applications</li>
-</ul></li>
-</ul></li>
-<li>Domain-independent reasoning
-<ul class="org-ul">
-<li>AlphaGo is a Go-specific solver, Human solves various problems</li>
-</ul></li>
-<li>Single-agent deliberation, not games
-<ul class="org-ul">
-<li>Where <b>right</b> and <b>optimal</b> answers matter (completeness &amp; optimality)</li>
-<li>Compared to achieving the <b>optimal</b> solution, it is easier to win against the human!</li>
-</ul></li>
+<li>1: <a href="https://en.wikipedia.org/wiki/Reactive_planning">DQN / RL is strictly reactive, like Pavlov's dog</a></li>
+<li>2: Domain-independent reasoning</li>
+<li>3: Single-agent deliberation, not games</li>
 </ul></li>
 </ul>
 </div>
 </div>
 
 <div id="outline-container-orgheadline7" class="outline-2">
-<h2 id="orgheadline7"><span class="section-number-2">7</span> What I can provide</h2>
+<h2 id="orgheadline7"><span class="section-number-2">7</span> RL is strictly reactive, like Pavlov's dog</h2>
 <div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>RL greedily trust the learned Q-function, which may work in Atari games
+<ul class="org-ul">
+<li>Atari games are reactive, younger players are good at games</li>
+</ul></li>
+<li>By design, not capable of reasoning about the long future, may fall in deadend
+<ul class="org-ul">
+<li>1-step (Q-learning) or 2-steps (SARSA) future only</li>
+<li>E.g. An autonomous car may drive around too long, failing to foresee running out of fuel</li>
+</ul></li>
+<li>Cannot be used for critical applications, no <b>theoretical guarantees</b> for soundness
+<ul class="org-ul">
+<li>Like space applications, expensive robots, medical applications</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline8" class="outline-2">
+<h2 id="orgheadline8"><span class="section-number-2">8</span> Domain-independnet Reasoning</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li>AlphaGo is a Go-specific solver, Human solves various problems</li>
+<li>Planning provides domain-independent solvers: One solver to rule them all</li>
+<li>SIGAPS (collection of planning applications) <a href="http://users.cecs.anu.edu.au/~patrik/sigaps/index.php">http://users.cecs.anu.edu.au/~patrik/sigaps/index.php</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline9" class="outline-2">
+<h2 id="orgheadline9"><span class="section-number-2">9</span> Single-agent deliberation, not games</h2>
+<div class="outline-text-2" id="text-9">
+<ul class="org-ul">
+<li>Where <b>right</b> and <b>optimal</b> answers matter (completeness &amp; optimality)
+<ul class="org-ul">
+<li>optimality -&gt; smallest cost</li>
+</ul></li>
+<li>Compared to achieving the <b>optimal</b> solution, it is easier to win against the human!</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline10" class="outline-2">
+<h2 id="orgheadline10"><span class="section-number-2">10</span> What I can provide</h2>
+<div class="outline-text-2" id="text-10">
 <ul class="org-ul">
 <li>Deep understanding of symbolic systems
 <ul class="org-ul">
@@ -373,9 +398,9 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 </div>
 </div>
 
-<div id="outline-container-orgheadline8" class="outline-2">
-<h2 id="orgheadline8"><span class="section-number-2">8</span> The reason I want to join</h2>
-<div class="outline-text-2" id="text-8">
+<div id="outline-container-orgheadline11" class="outline-2">
+<h2 id="orgheadline11"><span class="section-number-2">11</span> The reason I want to join</h2>
+<div class="outline-text-2" id="text-11">
 <ul class="org-ul">
 <li>Top-of-the-World research colleague</li>
 <li>Same vision
@@ -394,9 +419,9 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 </div>
 </div>
 
-<div id="outline-container-orgheadline9" class="outline-2">
-<h2 id="orgheadline9"><span class="section-number-2">9</span> The reason I want to join (more personal)</h2>
-<div class="outline-text-2" id="text-9">
+<div id="outline-container-orgheadline12" class="outline-2">
+<h2 id="orgheadline12"><span class="section-number-2">12</span> The reason I want to join (more personal)</h2>
+<div class="outline-text-2" id="text-12">
 <ul class="org-ul">
 <li>I chose to be a planning researcher because I am not good at planning
 <ul class="org-ul">
@@ -435,7 +460,7 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2017-07-21 金 22:09</p>
+<p class="date">Created: 2017-07-21 金 22:19</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
