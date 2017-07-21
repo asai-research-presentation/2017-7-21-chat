@@ -106,9 +106,11 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 + What's missing in DM's goal for AGI?
 + Domain-independent Deliberative Agent
   + DQN / RL is strictly reactive, like Pavlov's dog
-    + RL greedily trust the learned Q-function, which works in Atari games
+    + RL greedily trust the learned Q-function, which may work in Atari games
+    + but RL cannot be used for critical applications, no *theoretical guarantees* for soundness
+      + Like space applications, expensive robots, medical applications
   + Domain-independent reasoning
-    + AlphaGo is a Go-specific solver
+    + AlphaGo is a Go-specific solver, Human solves various problems
   + Single-agent deliberation, not games
     + Where *right* and *optimal* answers matter (completeness & optimality)
     + Compared to achieving the *optimal* solution, it is easier to win against the human!

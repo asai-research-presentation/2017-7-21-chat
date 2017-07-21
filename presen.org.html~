@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-07-21 金 21:58 -->
+<!-- 2017-07-21 金 22:04 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title></title>
@@ -321,11 +321,15 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 <ul class="org-ul">
 <li>DQN / RL is strictly reactive, like Pavlov's dog
 <ul class="org-ul">
-<li>RL greedily trust the learned Q-function, which works in Atari games</li>
+<li>RL greedily trust the learned Q-function, which may work in Atari games</li>
+<li>but RL cannot be used for critical applications, no <b>theoretical guarantees</b> for soundness
+<ul class="org-ul">
+<li>Like space applications, expensive robots, medical applications</li>
+</ul></li>
 </ul></li>
 <li>Domain-independent reasoning
 <ul class="org-ul">
-<li>AlphaGo is a Go-specific solver</li>
+<li>AlphaGo is a Go-specific solver, Human solves various problems</li>
 </ul></li>
 <li>Single-agent deliberation, not games
 <ul class="org-ul">
@@ -424,7 +428,7 @@ DeepMind, who seemed to have encouraged someone in charge to pick me up.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2017-07-21 金 21:58</p>
+<p class="date">Created: 2017-07-21 金 22:04</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
